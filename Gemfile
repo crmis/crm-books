@@ -14,6 +14,10 @@ gem 'spring', group: :development
 
 gem 'mongoid', '~> 4.0.0'
 
+gem 'money-rails'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.1.0'
 end
+
+gem "codeclimate-test-reporter", group: :test, require: nil
