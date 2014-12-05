@@ -19,7 +19,9 @@ gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
 
 gem 'money-rails'
 
-gem 'rails_12factor'
+group :production do
+  gem 'rails_12factor'
+end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.1.0'
