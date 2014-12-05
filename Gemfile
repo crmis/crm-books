@@ -13,6 +13,7 @@ gem 'spring', group: :development
 ##
 
 gem 'mongoid', '~> 4.0.0'
+gem 'mongoid-grid_fs', github: 'ahoward/mongoid-grid_fs'
 
 gem 'money-rails'
 

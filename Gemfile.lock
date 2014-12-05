@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/ahoward/mongoid-grid_fs.git
+  revision: 9ab0ca49add11a276c87c3e5da15fb0e282fcff7
+  specs:
+    mongoid-grid_fs (2.1.0)
+      mime-types (>= 1.0, < 3.0)
+      mongoid (>= 3.0, < 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -156,6 +164,7 @@ DEPENDENCIES
   jquery-rails
   money-rails
   mongoid (~> 4.0.0)
+  mongoid-grid_fs!
   rails (= 4.1.8)
   rspec-rails (~> 3.1.0)
   sass-rails (~> 4.0.3)
