@@ -3,7 +3,7 @@ production:
     default:
       # The standard MongoDB connection URI allows for easy replica set connection setup.
       # Use environment variables or a config file to keep your credentials safe.
-      uri: <%= ENV['MONGOHQ_URL'] %>
+      uri: <%= ENV['MONGOLAB_URI'] %>
       options:
         # The default consistency is :eventual, which reads from secondaries when possible.
         # Strong forces reads to primary. We recommend using strong consistency.
