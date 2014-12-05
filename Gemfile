@@ -15,6 +15,8 @@ gem 'spring', group: :development
 gem 'mongoid', '~> 4.0.0'
 gem 'mongoid-grid_fs', github: 'ahoward/mongoid-grid_fs'
 
+gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
+
 gem 'money-rails'
 
 group :development, :test do
