@@ -1,9 +1,7 @@
 == C|R|M Books :octocat:
 
 {<img src="https://travis-ci.org/crmis/crm-books.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/crmis/crm-books]
-
 {<img src="https://codeclimate.com/github/crmis/crm-books/badges/gpa.svg" />}[https://codeclimate.com/github/crmis/crm-books]
-
 {<img src="https://codeclimate.com/github/crmis/crm-books/badges/coverage.svg" />}[https://codeclimate.com/github/crmis/crm-books]
 
 This README would normally document whatever steps are necessary to get the
