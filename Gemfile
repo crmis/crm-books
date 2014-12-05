@@ -19,8 +19,10 @@ gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
 
 gem 'money-rails'
 
+gem 'rails_12factor'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.1.0'
 end
 
-gem "codeclimate-test-reporter", group: :test, require: nil
+gem 'codeclimate-test-reporter', group: :test, require: nil
