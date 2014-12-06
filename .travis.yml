@@ -2,6 +2,7 @@
 
 before_install:
   - sudo apt-get update
+
 rvm:
 - 2.1.5
 - 2.1.4
@@ -14,3 +15,11 @@ services:
 addons:
   code_climate:
     repo_token: dbff2f8dc258f57e456b6c1980bef3159ae268fe03291656251e140e91d0e6d6
+
+
+notifications:
+  email:
+    recipients:
+      - tom.jcox@icloud.com
+    on_success: change # default: change
+    on_failure: change # default: always
