@@ -1,7 +1,15 @@
 #This needs updating
 
+os:
+  - linux
+  - osx
+
 before_install:
   - sudo apt-get update
+
+# matrix:
+#   allow_failures:
+#     - os: osx
 
 rvm:
 - 2.1.5
