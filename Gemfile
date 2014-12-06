@@ -11,7 +11,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring', group: :development
 
 ##
-
+# Add versions
 gem 'mongoid', '~> 4.0.0'
 gem 'mongoid-grid_fs', github: 'ahoward/mongoid-grid_fs'
 
