@@ -1,33 +1,13 @@
 <h1>Catalogue</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Cover</th>
-      <th>Price</th>
-      <th>Year Published</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @products.each do |product| %>
-      <tr>
-        <td><%= product.title %></td>
-        <td><%= product.description %></td>
-        <td><%= image_tag product.product_img,:height => 150 %></td>
-        <td><%= product.price %></td>
-        <td><%= product.year_published %></td>
-        <td><%= link_to 'Show', product %></td>
-        <td><%= link_to 'Edit', edit_product_path(product) %></td>
-        <td><%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Product', new_product_path %>
+<% @products.in_groups_of(3) do |group| %>
+<div class="row">
+  <% group.compact.each do |product| %>
+  <div class="col-md-4">
+    <%= image_tag product.product_img, width: '20%' if product.product_img.present?%>
+    <h4><%= link_to product.title, product %></h4>
+    <%= product.description %>
+  </div>
+  <% end %>
+</div>
+<% end %>
