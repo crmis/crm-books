@@ -19,6 +19,7 @@ gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
 
 gem 'money-rails'
 
+gem 'devise'
 
 # Needs correctly grouping
 
