@@ -11,13 +11,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring', group: :development
 
 ##
-# Add versions
+# Add versions (gemnasium)
 gem 'mongoid', '~> 4.0.0'
 gem 'mongoid-grid_fs', github: 'ahoward/mongoid-grid_fs'
 
 gem 'mongoid-paperclip', :require => 'mongoid_paperclip'
 
 gem 'money-rails'
+
+
+# Needs correctly grouping
 
 group :production do
   gem 'rails_12factor'
