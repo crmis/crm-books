@@ -21,6 +21,8 @@ gem 'money-rails'
 
 gem 'devise'
 
+gem 'newrelic_rpm'
+
 # Needs correctly grouping
 
 group :production do
